@@ -328,9 +328,11 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w57-Da-P6I">
                                 <rect key="frame" x="105" y="290" width="205" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.54901960780000003" green="0.54901960780000003" blue="0.64313725489999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.54901960780000003" green="0.54901960780000003" blue="0.64313725489999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Words of Affirmation">
+                                    <backgroundConfiguration key="background"/>
                                     <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -500,9 +502,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="iC0-YD-DSx"/>
+        <segue reference="eaW-JW-1Oh"/>
         <segue reference="TRq-Li-U9P"/>
         <segue reference="AUy-IF-CnK"/>
-        <segue reference="fhe-nB-TC1"/>
+        <segue reference="UqU-ng-yb2"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="homekit" catalog="system" width="128" height="106"/>
