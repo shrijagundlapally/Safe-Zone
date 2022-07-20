@@ -15,6 +15,14 @@
 		7B73EAD228888D920044097B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B73EAD128888D920044097B /* Assets.xcassets */; };
 		7B73EAD528888D920044097B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B73EAD328888D920044097B /* LaunchScreen.storyboard */; };
 		7B73EAE32888985C0044097B /* Schoolbell-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B73EAE22888985C0044097B /* Schoolbell-Regular.ttf */; };
+		7B73EAE528889D280044097B /* checkInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B73EAE428889D280044097B /* checkInViewController.swift */; };
+		7B73EAE728889D360044097B /* informationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B73EAE628889D360044097B /* informationViewController.swift */; };
+		7B73EAE928889D400044097B /* hotlinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B73EAE828889D400044097B /* hotlinesViewController.swift */; };
+		7B73EAEB28889D4E0044097B /* wordsofaffirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B73EAEA28889D4E0044097B /* wordsofaffirmationViewController.swift */; };
+		7B73EAED28889D600044097B /* distractionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B73EAEC28889D600044097B /* distractionsViewController.swift */; };
+		7B73EAEF28889D6C0044097B /* learnMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B73EAEE28889D6C0044097B /* learnMoreViewController.swift */; };
+		7B73EAF128889D790044097B /* anxietyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B73EAF028889D790044097B /* anxietyViewController.swift */; };
+		7B73EAF328889D8B0044097B /* panicAttacksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B73EAF228889D8B0044097B /* panicAttacksViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +36,14 @@
 		7B73EAD428888D920044097B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B73EAD628888D920044097B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B73EAE22888985C0044097B /* Schoolbell-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Schoolbell-Regular.ttf"; path = "../../../../Downloads/Schoolbell 2/Schoolbell-Regular.ttf"; sourceTree = "<group>"; };
+		7B73EAE428889D280044097B /* checkInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkInViewController.swift; sourceTree = "<group>"; };
+		7B73EAE628889D360044097B /* informationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = informationViewController.swift; sourceTree = "<group>"; };
+		7B73EAE828889D400044097B /* hotlinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hotlinesViewController.swift; sourceTree = "<group>"; };
+		7B73EAEA28889D4E0044097B /* wordsofaffirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordsofaffirmationViewController.swift; sourceTree = "<group>"; };
+		7B73EAEC28889D600044097B /* distractionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = distractionsViewController.swift; sourceTree = "<group>"; };
+		7B73EAEE28889D6C0044097B /* learnMoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnMoreViewController.swift; sourceTree = "<group>"; };
+		7B73EAF028889D790044097B /* anxietyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anxietyViewController.swift; sourceTree = "<group>"; };
+		7B73EAF228889D8B0044097B /* panicAttacksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = panicAttacksViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +80,14 @@
 				7B73EAC728888D900044097B /* SceneDelegate.swift */,
 				7B73EAC928888D900044097B /* ViewController.swift */,
 				7B73EACB28888D900044097B /* Main.storyboard */,
+				7B73EAE428889D280044097B /* checkInViewController.swift */,
+				7B73EAE628889D360044097B /* informationViewController.swift */,
+				7B73EAE828889D400044097B /* hotlinesViewController.swift */,
+				7B73EAEA28889D4E0044097B /* wordsofaffirmationViewController.swift */,
+				7B73EAEC28889D600044097B /* distractionsViewController.swift */,
+				7B73EAEE28889D6C0044097B /* learnMoreViewController.swift */,
+				7B73EAF028889D790044097B /* anxietyViewController.swift */,
+				7B73EAF228889D8B0044097B /* panicAttacksViewController.swift */,
 				7B73EAD128888D920044097B /* Assets.xcassets */,
 				7B73EAD328888D920044097B /* LaunchScreen.storyboard */,
 				7B73EAD628888D920044097B /* Info.plist */,
@@ -146,9 +170,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B73EAD028888D900044097B /* Safe_Zone.xcdatamodeld in Sources */,
+				7B73EAE528889D280044097B /* checkInViewController.swift in Sources */,
 				7B73EACA28888D900044097B /* ViewController.swift in Sources */,
 				7B73EAC628888D900044097B /* AppDelegate.swift in Sources */,
+				7B73EAF328889D8B0044097B /* panicAttacksViewController.swift in Sources */,
+				7B73EAEF28889D6C0044097B /* learnMoreViewController.swift in Sources */,
+				7B73EAEB28889D4E0044097B /* wordsofaffirmationViewController.swift in Sources */,
 				7B73EAC828888D900044097B /* SceneDelegate.swift in Sources */,
+				7B73EAF128889D790044097B /* anxietyViewController.swift in Sources */,
+				7B73EAED28889D600044097B /* distractionsViewController.swift in Sources */,
+				7B73EAE728889D360044097B /* informationViewController.swift in Sources */,
+				7B73EAE928889D400044097B /* hotlinesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
