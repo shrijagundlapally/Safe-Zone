@@ -14,6 +14,7 @@
 		7B73EAD028888D900044097B /* Safe_Zone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7B73EACE28888D900044097B /* Safe_Zone.xcdatamodeld */; };
 		7B73EAD228888D920044097B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B73EAD128888D920044097B /* Assets.xcassets */; };
 		7B73EAD528888D920044097B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B73EAD328888D920044097B /* LaunchScreen.storyboard */; };
+		7B73EAE32888985C0044097B /* Schoolbell-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B73EAE22888985C0044097B /* Schoolbell-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7B73EAD128888D920044097B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B73EAD428888D920044097B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B73EAD628888D920044097B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B73EAE22888985C0044097B /* Schoolbell-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Schoolbell-Regular.ttf"; path = "../../../../Downloads/Schoolbell 2/Schoolbell-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				7B73EAD128888D920044097B /* Assets.xcassets */,
 				7B73EAD328888D920044097B /* LaunchScreen.storyboard */,
 				7B73EAD628888D920044097B /* Info.plist */,
+				7B73EAE22888985C0044097B /* Schoolbell-Regular.ttf */,
 				7B73EACE28888D900044097B /* Safe_Zone.xcdatamodeld */,
 			);
 			path = "Safe Zone";
@@ -128,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B73EAE32888985C0044097B /* Schoolbell-Regular.ttf in Resources */,
 				7B73EAD528888D920044097B /* LaunchScreen.storyboard in Resources */,
 				7B73EAD228888D920044097B /* Assets.xcassets in Resources */,
 				7B73EACD28888D900044097B /* Main.storyboard in Resources */,
