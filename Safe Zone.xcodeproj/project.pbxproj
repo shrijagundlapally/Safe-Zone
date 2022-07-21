@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		7B6AA1EF2889C77300209F40 /* usaHotlinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6AA1EE2889C77300209F40 /* usaHotlinesViewController.swift */; };
 		7B6AA1F12889C78000209F40 /* canadaHotlinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6AA1F02889C78000209F40 /* canadaHotlinesViewController.swift */; };
+		7B6AA1F32889CF9A00209F40 /* sunEmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6AA1F22889CF9A00209F40 /* sunEmojiViewController.swift */; };
+		7B6AA1F52889CFA500209F40 /* brainEmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6AA1F42889CFA500209F40 /* brainEmojiViewController.swift */; };
+		7B6AA1F72889CFB500209F40 /* musicEmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6AA1F62889CFB500209F40 /* musicEmojiViewController.swift */; };
+		7B6AA1F92889CFC000209F40 /* heartEmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6AA1F82889CFC000209F40 /* heartEmojiViewController.swift */; };
 		7B73EAC628888D900044097B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B73EAC528888D900044097B /* AppDelegate.swift */; };
 		7B73EAC828888D900044097B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B73EAC728888D900044097B /* SceneDelegate.swift */; };
 		7B73EACA28888D900044097B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B73EAC928888D900044097B /* ViewController.swift */; };
@@ -31,6 +35,10 @@
 /* Begin PBXFileReference section */
 		7B6AA1EE2889C77300209F40 /* usaHotlinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usaHotlinesViewController.swift; sourceTree = "<group>"; };
 		7B6AA1F02889C78000209F40 /* canadaHotlinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canadaHotlinesViewController.swift; sourceTree = "<group>"; };
+		7B6AA1F22889CF9A00209F40 /* sunEmojiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sunEmojiViewController.swift; sourceTree = "<group>"; };
+		7B6AA1F42889CFA500209F40 /* brainEmojiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brainEmojiViewController.swift; sourceTree = "<group>"; };
+		7B6AA1F62889CFB500209F40 /* musicEmojiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicEmojiViewController.swift; sourceTree = "<group>"; };
+		7B6AA1F82889CFC000209F40 /* heartEmojiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heartEmojiViewController.swift; sourceTree = "<group>"; };
 		7B73EAC228888D900044097B /* Safe Zone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safe Zone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B73EAC528888D900044097B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B73EAC728888D900044097B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +94,10 @@
 				7B73EAC728888D900044097B /* SceneDelegate.swift */,
 				7B73EAC928888D900044097B /* ViewController.swift */,
 				7B73EACB28888D900044097B /* Main.storyboard */,
+				7B6AA1F22889CF9A00209F40 /* sunEmojiViewController.swift */,
+				7B6AA1F42889CFA500209F40 /* brainEmojiViewController.swift */,
+				7B6AA1F62889CFB500209F40 /* musicEmojiViewController.swift */,
+				7B6AA1F82889CFC000209F40 /* heartEmojiViewController.swift */,
 				7B6AA1EE2889C77300209F40 /* usaHotlinesViewController.swift */,
 				7B6AA1F02889C78000209F40 /* canadaHotlinesViewController.swift */,
 				7D3358022888ED8C001C4C6B /* homePageViewController.swift */,
@@ -180,9 +192,12 @@
 				7D3358032888ED8C001C4C6B /* homePageViewController.swift in Sources */,
 				7B73EAD028888D900044097B /* Safe_Zone.xcdatamodeld in Sources */,
 				7B6AA1F12889C78000209F40 /* canadaHotlinesViewController.swift in Sources */,
+				7B6AA1F32889CF9A00209F40 /* sunEmojiViewController.swift in Sources */,
 				7B73EAE528889D280044097B /* checkInViewController.swift in Sources */,
+				7B6AA1F72889CFB500209F40 /* musicEmojiViewController.swift in Sources */,
 				7B73EACA28888D900044097B /* ViewController.swift in Sources */,
 				7B73EAC628888D900044097B /* AppDelegate.swift in Sources */,
+				7B6AA1F92889CFC000209F40 /* heartEmojiViewController.swift in Sources */,
 				7B73EAF328889D8B0044097B /* panicAttacksViewController.swift in Sources */,
 				7B73EAEF28889D6C0044097B /* learnMoreViewController.swift in Sources */,
 				7B73EAEB28889D4E0044097B /* wordsofaffirmationViewController.swift in Sources */,
@@ -192,6 +207,7 @@
 				7B73EAED28889D600044097B /* distractionsViewController.swift in Sources */,
 				7B6AA1EF2889C77300209F40 /* usaHotlinesViewController.swift in Sources */,
 				7B73EAE728889D360044097B /* informationViewController.swift in Sources */,
+				7B6AA1F52889CFA500209F40 /* brainEmojiViewController.swift in Sources */,
 				7B73EAE928889D400044097B /* hotlinesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

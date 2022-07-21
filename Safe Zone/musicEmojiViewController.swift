@@ -1,27 +1,21 @@
 //
-//  distractionsViewController.swift
+//  musicEmojiViewController.swift
 //  Safe Zone
 //
-//  Created by Amy Ding on 2022-07-20.
+//  Created by Amy Ding on 2022-07-21.
 //
 
 import UIKit
 
+class musicEmojiViewController: UIViewController {
 
-class distractionsViewController: UIViewController {
-    @IBOutlet weak var musicNote: UIButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func musicNote(_ sender: Any) {
-        let url = URL(string: "https://open.spotify.com/playlist/0btIJAyBE7WYTc4FuhsCmh")!
-        UIApplication.shared.open(url)
-    }
-    
+
     /*
     // MARK: - Navigation
 
