@@ -214,6 +214,10 @@
                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="Idt-Ek-nup">
+                                <rect key="frame" x="49" y="687" width="317" height="267"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9lk-9C-B4N"/>
                         <color key="backgroundColor" red="0.6588235294117647" green="0.61176470588235299" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -287,6 +291,10 @@
                                     <segue destination="FWt-hi-aoO" kind="show" id="Y3M-Wd-HmQ"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="TPM-gf-GKI">
+                                <rect key="frame" x="49" y="684" width="317" height="267"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xC7-P5-z25"/>
                         <color key="backgroundColor" red="0.70980392156862748" green="0.82745098039215681" blue="0.8666666666666667" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -567,6 +575,10 @@
                                     <segue destination="gM4-xi-B2b" kind="show" id="taU-mk-RVH"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="qI4-T2-dJZ">
+                                <rect key="frame" x="49" y="683" width="317" height="267"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rCB-Gq-Cyo"/>
                         <color key="backgroundColor" red="0.70980392156862748" green="0.82745098039215681" blue="0.8666666666666667" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -650,6 +662,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="vz2-Di-fK7">
+                                <rect key="frame" x="49" y="681" width="317" height="267"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zgM-ES-4j1"/>
                         <color key="backgroundColor" red="1" green="0.84867732962219189" blue="0.87767291787523161" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -724,6 +740,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="aLm-Vc-lPK">
+                                <rect key="frame" x="49" y="682" width="317" height="267"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="2cm-L9-ktR"/>
                         <color key="backgroundColor" red="1" green="0.84867732959999997" blue="0.87767291790000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -802,6 +822,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="ZdB-Bf-kLb">
+                                <rect key="frame" x="49" y="682" width="317" height="267"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Ad-XD-BoQ"/>
                         <color key="backgroundColor" red="1" green="0.84867732959999997" blue="0.87767291790000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1144,12 +1168,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="HaX-Xw-Ynf"/>
-        <segue reference="bc9-H3-rla"/>
-        <segue reference="xqv-jt-M01"/>
-        <segue reference="yq1-Gm-j7S"/>
+        <segue reference="taU-mk-RVH"/>
+        <segue reference="5MA-cY-x7w"/>
+        <segue reference="PGP-T8-DdX"/>
         <segue reference="GZh-ZT-eSF"/>
-        <segue reference="qMR-eA-85w"/>
+        <segue reference="qOa-F6-oV8"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image" width="250" height="250"/>
