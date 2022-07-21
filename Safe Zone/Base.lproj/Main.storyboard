@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-20 at 9.17.17 PM" translatesAutoresizingMaskIntoConstraints="NO" id="Rzm-1F-Ut4">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="Rzm-1F-Ut4">
                                 <rect key="frame" x="0.0" y="162" width="413" height="344"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -803,7 +803,7 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="988 call" width="2500" height="1308"/>
-        <image name="Screen Shot 2022-07-20 at 9.17.17 PM" width="250" height="250"/>
+        <image name="Image" width="250" height="250"/>
         <image name="TNI" width="200" height="200"/>
         <image name="homekit" catalog="system" width="128" height="106"/>
         <image name="mia" width="1200" height="600"/>
