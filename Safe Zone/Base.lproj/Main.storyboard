@@ -338,18 +338,18 @@
         <scene sceneID="x3Y-xb-kZP">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="LER-5P-iXj" customClass="anxietyViewController" customModule="Safe_Zone" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="ave-qC-M86">
+                    <view key="view" contentMode="scaleToFill" id="ave-qC-M86">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SEa-2d-6ug">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aSN-kq-IBN">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IiO-ns-gGi">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7YD-Bx-kTK">
-                                                <rect key="frame" x="17" y="109" width="380" height="409"/>
+                                                <rect key="frame" x="17" y="53" width="380" height="409"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">People feel anxious from time to time, whether it is because of a test or a job interview. However, it becomes a conflict when it becomes uncontrollable. Continuous anxiety that hinders daily life activities needs to be taken care of to the best of their ability.</string>
                                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="22"/>
@@ -357,75 +357,61 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Symptons" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QbQ-t3-y7g">
-                                                <rect key="frame" x="146" y="498" width="121" height="88"/>
+                                                <rect key="frame" x="137" y="397" width="121" height="88"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Bold" family="Bodoni 72" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CUq-Ot-ZAN">
-                                                <rect key="frame" x="8" y="586" width="0.0" height="0.0"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="*Feeling reckless, on edge, or inability to relax " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Npd-0E-yc0">
+                                                <rect key="frame" x="30" y="522" width="354" height="53"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="*Difficulty handling uncertainty" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ptd-AR-9MZ">
-                                                <rect key="frame" x="75" y="546" width="322" height="81"/>
+                                                <rect key="frame" x="30" y="589" width="322" height="81"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="*Inability to set aside worries" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jJk-4K-k4i">
-                                                <rect key="frame" x="86" y="602" width="238" height="53"/>
+                                                <rect key="frame" x="30" y="666" width="238" height="53"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Non-Mediciinal Treatment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iwu-hX-f3E">
-                                                <rect key="frame" x="106" y="870" width="198" height="92"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Anxiety" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdo-Pe-xqR">
-                                                <rect key="frame" x="17" y="33" width="380" height="166"/>
+                                                <rect key="frame" x="7" y="8" width="380" height="166"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="42"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hzC-dz-UD4">
-                                                <rect key="frame" x="-80" y="-102" width="274" height="264"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0mt-vm-4pO">
+                                                <rect key="frame" x="-86" y="-88" width="274" height="264"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" image="arrow symbol"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="arrow symbol" title=""/>
                                                 <connections>
-                                                    <segue destination="Ogv-bt-KUH" kind="show" id="4WE-pE-Qhb"/>
+                                                    <segue destination="Ogv-bt-KUH" kind="presentation" id="CGO-y8-LN3"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="*Feeling reckless, on edge, or inability to relax " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Npd-0E-yc0">
-                                                <rect key="frame" x="30" y="643" width="354" height="53"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="20"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.79607844350000001" green="0.73333334920000004" blue="0.8156862855" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.79607843137254897" green="0.73333333333333328" blue="0.81568627450980391" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="2000" id="cIE-nS-EkB"/>
+                                            <constraint firstAttribute="height" constant="1500" id="6jd-eO-XC0"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="aSN-kq-IBN" firstAttribute="top" secondItem="SEa-2d-6ug" secondAttribute="top" id="2TA-Ap-sP6"/>
-                                    <constraint firstAttribute="trailing" secondItem="aSN-kq-IBN" secondAttribute="trailing" id="CAW-KA-yMQ"/>
-                                    <constraint firstItem="aSN-kq-IBN" firstAttribute="leading" secondItem="SEa-2d-6ug" secondAttribute="leading" id="Xyk-Fm-NcX"/>
-                                    <constraint firstAttribute="bottom" secondItem="aSN-kq-IBN" secondAttribute="bottom" id="vaU-5s-Abe"/>
+                                    <constraint firstAttribute="trailing" secondItem="IiO-ns-gGi" secondAttribute="trailing" id="Jzt-Ih-aVq"/>
+                                    <constraint firstItem="IiO-ns-gGi" firstAttribute="top" secondItem="SEa-2d-6ug" secondAttribute="top" id="M7l-LM-fJ0"/>
+                                    <constraint firstAttribute="bottom" secondItem="IiO-ns-gGi" secondAttribute="bottom" id="Uhl-AA-MoT"/>
+                                    <constraint firstItem="IiO-ns-gGi" firstAttribute="leading" secondItem="SEa-2d-6ug" secondAttribute="leading" id="qaf-cb-RaC"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -433,7 +419,7 @@
                         <color key="backgroundColor" red="0.80000000000000004" green="0.73725490196078436" blue="0.81960784313725488" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="SEa-2d-6ug" firstAttribute="bottom" secondItem="fEv-Hx-WJg" secondAttribute="bottom" id="2J1-GY-JhJ"/>
-                            <constraint firstItem="aSN-kq-IBN" firstAttribute="height" secondItem="ave-qC-M86" secondAttribute="height" multiplier="2.23214" id="8o5-2e-JvG"/>
+                            <constraint firstItem="IiO-ns-gGi" firstAttribute="height" secondItem="ave-qC-M86" secondAttribute="height" multiplier="1.67411" id="eV2-zJ-GmF"/>
                             <constraint firstItem="SEa-2d-6ug" firstAttribute="top" secondItem="fEv-Hx-WJg" secondAttribute="top" id="nTJ-go-EWe"/>
                             <constraint firstItem="SEa-2d-6ug" firstAttribute="trailing" secondItem="fEv-Hx-WJg" secondAttribute="trailing" id="rhg-os-urG"/>
                             <constraint firstItem="SEa-2d-6ug" firstAttribute="leading" secondItem="fEv-Hx-WJg" secondAttribute="leading" id="vHh-Xv-CnD"/>
@@ -457,49 +443,40 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hdv-0Z-dU3">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FiN-hW-VLM" colorLabel="IBBuiltInLabel-Purple">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xHx-V3-p2s">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Panic Attacks" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8EF-55-w3h">
-                                                <rect key="frame" x="17" y="28" width="380" height="166"/>
+                                                <rect key="frame" x="17" y="8" width="380" height="166"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="42"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xc9-8V-b2N">
-                                                <rect key="frame" x="26" y="202" width="352" height="198"/>
+                                                <rect key="frame" x="31" y="132" width="352" height="198"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Panic attacks are complex since they affect both physical and emotional aspects of a person's life during an episode. Attacks due to extreme fear and stress might last five minutes, but their effects linger.</string>
                                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="22"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iFU-bJ-PUd">
-                                                <rect key="frame" x="-78" y="-103" width="274" height="264"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" image="arrow symbol"/>
-                                                <connections>
-                                                    <segue destination="Ogv-bt-KUH" kind="show" id="EHc-zT-OUA"/>
-                                                </connections>
-                                            </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Symptons" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rY7-o9-5MK">
-                                                <rect key="frame" x="147" y="493" width="121" height="88"/>
+                                                <rect key="frame" x="147" y="370" width="121" height="88"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Bold" family="Bodoni 72" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="*Inability to move, feelings of being frozen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ngr-Wb-mMd">
-                                                <rect key="frame" x="42" y="568" width="320" height="25"/>
+                                                <rect key="frame" x="63" y="513" width="320" height="25"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ezM-eI-CZR">
-                                                <rect key="frame" x="112" y="609" width="150" height="25"/>
+                                                <rect key="frame" x="63" y="591" width="150" height="25"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">*Elevated heart rate
 </string>
@@ -508,7 +485,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qS0-qk-g87">
-                                                <rect key="frame" x="112" y="627" width="322" height="81"/>
+                                                <rect key="frame" x="61" y="644" width="322" height="81"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">*Difficulty breathing
 </string>
@@ -516,25 +493,38 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="038-61-RmE">
+                                                <rect key="frame" x="-83" y="-90" width="274" height="264"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="arrow symbol" title=""/>
+                                                <connections>
+                                                    <segue destination="LER-5P-iXj" kind="presentation" id="YRG-RT-1eo"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.79607844350000001" green="0.73333334920000004" blue="0.8156862855" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.79607843137254897" green="0.73333333333333328" blue="0.81568627450980391" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="2000" id="ndc-Yy-5Pe"/>
+                                            <constraint firstAttribute="height" constant="1500" id="hrP-OT-549"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="FiN-hW-VLM" firstAttribute="leading" secondItem="hdv-0Z-dU3" secondAttribute="leading" id="NYL-Ry-jWk"/>
-                                    <constraint firstAttribute="trailing" secondItem="FiN-hW-VLM" secondAttribute="trailing" id="klO-KD-MG6"/>
-                                    <constraint firstItem="FiN-hW-VLM" firstAttribute="top" secondItem="hdv-0Z-dU3" secondAttribute="top" id="nod-zg-09z"/>
-                                    <constraint firstAttribute="bottom" secondItem="FiN-hW-VLM" secondAttribute="bottom" id="rjS-tl-7LB"/>
+                                    <constraint firstAttribute="bottom" secondItem="xHx-V3-p2s" secondAttribute="bottom" id="H4N-BS-y2F"/>
+                                    <constraint firstAttribute="trailing" secondItem="xHx-V3-p2s" secondAttribute="trailing" id="TlG-Wb-NyS"/>
+                                    <constraint firstItem="xHx-V3-p2s" firstAttribute="leading" secondItem="hdv-0Z-dU3" secondAttribute="leading" id="f8f-7A-UlJ"/>
+                                    <constraint firstItem="xHx-V3-p2s" firstAttribute="top" secondItem="hdv-0Z-dU3" secondAttribute="top" id="wnW-Ev-c8C"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0ey-89-y5B"/>
                         <color key="backgroundColor" red="0.80000000000000004" green="0.73725490196078436" blue="0.81960784313725488" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="hdv-0Z-dU3" firstAttribute="trailing" secondItem="0ey-89-y5B" secondAttribute="trailing" id="2H9-bC-Ofi"/>
                             <constraint firstItem="hdv-0Z-dU3" firstAttribute="trailing" secondItem="0ey-89-y5B" secondAttribute="trailing" id="3aM-qH-tHO"/>
+                            <constraint firstItem="hdv-0Z-dU3" firstAttribute="leading" secondItem="0ey-89-y5B" secondAttribute="leading" id="4Am-3G-f3W"/>
+                            <constraint firstItem="hdv-0Z-dU3" firstAttribute="top" secondItem="0ey-89-y5B" secondAttribute="top" id="PgG-b5-BWN"/>
+                            <constraint firstItem="hdv-0Z-dU3" firstAttribute="bottom" secondItem="0ey-89-y5B" secondAttribute="bottom" id="T5a-Zu-xiX"/>
                             <constraint firstItem="hdv-0Z-dU3" firstAttribute="leading" secondItem="0ey-89-y5B" secondAttribute="leading" id="W87-GB-tow"/>
                             <constraint firstItem="hdv-0Z-dU3" firstAttribute="bottom" secondItem="0ey-89-y5B" secondAttribute="bottom" id="bup-iQ-bXk"/>
                             <constraint firstItem="hdv-0Z-dU3" firstAttribute="top" secondItem="0ey-89-y5B" secondAttribute="top" id="ca5-6u-c4E"/>
@@ -1264,7 +1254,8 @@
         <segue reference="Mfk-JX-Pwi"/>
         <segue reference="xqv-jt-M01"/>
         <segue reference="yq1-Gm-j7S"/>
-        <segue reference="AUy-IF-CnK"/>
+        <segue reference="YRG-RT-1eo"/>
+        <segue reference="CGO-y8-LN3"/>
         <segue reference="qMv-9t-YY1"/>
     </inferredMetricsTieBreakers>
     <resources>
