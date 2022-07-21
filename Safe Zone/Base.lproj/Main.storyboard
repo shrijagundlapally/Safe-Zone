@@ -321,12 +321,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ywl-mR-7wL">
-                                <rect key="frame" x="20" y="44" width="71" height="70"/>
+                                <rect key="frame" x="-81" y="-53" width="274" height="264"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="⬅️">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="42"/>
-                                </buttonConfiguration>
+                                <buttonConfiguration key="configuration" style="plain" image="arrow symbol"/>
                                 <connections>
                                     <segue destination="Ogv-bt-KUH" kind="show" id="lef-Hj-096"/>
                                 </connections>
@@ -396,12 +394,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cqL-MZ-xat">
-                                <rect key="frame" x="20" y="44" width="71" height="70"/>
+                                <rect key="frame" x="-81" y="-53" width="274" height="264"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="⬅️">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="42"/>
-                                </buttonConfiguration>
+                                <buttonConfiguration key="configuration" style="plain" image="arrow symbol"/>
                                 <connections>
                                     <segue destination="Ogv-bt-KUH" kind="show" id="wxT-XU-c91"/>
                                 </connections>
@@ -462,12 +458,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4o9-KP-Ykc">
-                                <rect key="frame" x="20" y="44" width="71" height="70"/>
+                                <rect key="frame" x="-81" y="-53" width="274" height="264"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="⬅️">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="42"/>
-                                </buttonConfiguration>
+                                <buttonConfiguration key="configuration" style="plain" image="arrow symbol"/>
                                 <connections>
                                     <segue destination="Ogv-bt-KUH" kind="show" id="AUy-IF-CnK"/>
                                 </connections>
@@ -480,21 +474,21 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What are the differences?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u3d-OK-9q6">
-                                <rect key="frame" x="60" y="197" width="301" height="24"/>
+                                <rect key="frame" x="61" y="185" width="301" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Bold" family="Bodoni 72" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Learn More" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sUy-KQ-dTA">
-                                <rect key="frame" x="21" y="44" width="380" height="166"/>
+                                <rect key="frame" x="21" y="35" width="380" height="166"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="42"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySE-9d-8YX">
-                                <rect key="frame" x="49" y="229" width="324" height="162"/>
+                                <rect key="frame" x="49" y="217" width="324" height="162"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Anxiety is characterized as overthinking every little thing, irrational fear, and worry. On the other hand, panic attacks are mostly associated with physical symptoms.</string>
                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="20"/>
@@ -638,12 +632,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kai-M6-sDL">
-                                <rect key="frame" x="20" y="44" width="71" height="70"/>
+                                <rect key="frame" x="-81" y="-53" width="274" height="264"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="⬅️">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="42"/>
-                                </buttonConfiguration>
+                                <buttonConfiguration key="configuration" style="plain" image="arrow symbol"/>
                                 <connections>
                                     <segue destination="Z4o-Wi-blK" kind="show" id="xqv-jt-M01"/>
                                 </connections>
@@ -716,12 +708,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tB2-ge-lhX">
-                                <rect key="frame" x="20" y="44" width="71" height="70"/>
+                                <rect key="frame" x="-81" y="-53" width="274" height="264"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="⬅️">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="42"/>
-                                </buttonConfiguration>
+                                <buttonConfiguration key="configuration" style="plain" image="arrow symbol"/>
                                 <connections>
                                     <segue destination="Z4o-Wi-blK" kind="show" id="oy2-J8-ReU"/>
                                 </connections>
@@ -798,12 +788,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bq7-F3-7Qp">
-                                <rect key="frame" x="20" y="32" width="71" height="70"/>
+                                <rect key="frame" x="-81" y="-65" width="274" height="264"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="⬅️">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="42"/>
-                                </buttonConfiguration>
+                                <buttonConfiguration key="configuration" style="plain" image="arrow symbol"/>
                                 <connections>
                                     <segue destination="Z4o-Wi-blK" kind="show" id="5MA-cY-x7w"/>
                                 </connections>
@@ -852,12 +840,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OgC-An-ijo">
-                                <rect key="frame" x="20" y="44" width="71" height="70"/>
+                                <rect key="frame" x="-81" y="-53" width="274" height="264"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="⬅️">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="42"/>
-                                </buttonConfiguration>
+                                <buttonConfiguration key="configuration" style="plain" image="arrow symbol"/>
                                 <connections>
                                     <segue destination="NAj-NH-QqS" kind="show" id="TRq-Li-U9P"/>
                                 </connections>
@@ -917,12 +903,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3YE-cW-WGA">
-                                <rect key="frame" x="20" y="44" width="71" height="70"/>
+                                <rect key="frame" x="-81" y="-53" width="274" height="264"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="⬅️">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="42"/>
-                                </buttonConfiguration>
+                                <buttonConfiguration key="configuration" style="plain" image="arrow symbol"/>
                                 <connections>
                                     <segue destination="NAj-NH-QqS" kind="show" id="yq1-Gm-j7S"/>
                                 </connections>
@@ -1000,12 +984,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l6d-rP-eeD">
-                                <rect key="frame" x="20" y="44" width="71" height="70"/>
+                                <rect key="frame" x="-81" y="-53" width="274" height="264"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="⬅️">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="42"/>
-                                </buttonConfiguration>
+                                <buttonConfiguration key="configuration" style="plain" image="arrow symbol"/>
                                 <connections>
                                     <segue destination="NAj-NH-QqS" kind="show" id="qn1-94-j0v"/>
                                 </connections>
@@ -1051,12 +1033,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ylD-cn-Q8q">
-                                <rect key="frame" x="20" y="20" width="71" height="70"/>
+                                <rect key="frame" x="-81" y="-77" width="274" height="264"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="⬅️">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="42"/>
-                                </buttonConfiguration>
+                                <buttonConfiguration key="configuration" style="plain" image="arrow symbol"/>
                                 <connections>
                                     <segue destination="gM4-xi-B2b" kind="show" id="Mfk-JX-Pwi"/>
                                 </connections>
@@ -1117,12 +1097,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vqB-h0-rfG">
-                                <rect key="frame" x="20" y="20" width="71" height="70"/>
+                                <rect key="frame" x="-81" y="-77" width="274" height="264"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="⬅️">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="42"/>
-                                </buttonConfiguration>
+                                <buttonConfiguration key="configuration" style="plain" image="arrow symbol"/>
                                 <connections>
                                     <segue destination="gM4-xi-B2b" kind="show" id="bc9-H3-rla"/>
                                 </connections>
@@ -1168,15 +1146,16 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="taU-mk-RVH"/>
+        <segue reference="Mfk-JX-Pwi"/>
         <segue reference="5MA-cY-x7w"/>
-        <segue reference="PGP-T8-DdX"/>
-        <segue reference="GZh-ZT-eSF"/>
+        <segue reference="qn1-94-j0v"/>
+        <segue reference="AUy-IF-CnK"/>
         <segue reference="qOa-F6-oV8"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image" width="250" height="250"/>
         <image name="america" width="80" height="80"/>
+        <image name="arrow symbol" width="250" height="250"/>
         <image name="brain emoji" width="960" height="960"/>
         <image name="canada" width="80" height="80"/>
         <image name="cute heart" width="1144.5" height="1144.5"/>
