@@ -72,10 +72,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="bNe-f2-Foj">
-                                <rect key="frame" x="49" y="686" width="317" height="267"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dd5-qt-T6N">
                                 <rect key="frame" x="27" y="593" width="360" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -88,6 +84,10 @@
                                     <segue destination="xUW-NG-HeG" kind="show" id="qMR-eA-85w"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="fTx-Ts-3GL">
+                                <rect key="frame" x="49" y="684" width="317" height="267"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dhS-Sg-F89"/>
                         <color key="backgroundColor" red="0.70588235294117641" green="0.95686274509803915" blue="0.92549019607843142" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -160,10 +160,6 @@
                                     <segue destination="Ogv-bt-KUH" kind="show" id="GZh-ZT-eSF"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="ccp-C4-SM2">
-                                <rect key="frame" x="49" y="685" width="317" height="267"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to the Safe Zone!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gGm-BV-0l7">
                                 <rect key="frame" x="33" y="-26" width="349" height="365"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -171,6 +167,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="ccp-C4-SM2">
+                                <rect key="frame" x="49" y="685" width="317" height="267"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="utk-MB-oZA"/>
                         <color key="backgroundColor" red="0.70588235294117641" green="0.95686274509803915" blue="0.92549019607843142" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -914,17 +914,6 @@
                                     <segue destination="aXR-Ma-2iv" kind="show" id="hFe-c8-xyz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSw-gA-aAC">
-                                <rect key="frame" x="70" y="482" width="93" height="96"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <backgroundConfiguration key="background" image="cute heart"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="Q7x-3z-D2A" kind="show" id="HaX-Xw-Ynf"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vxI-Ma-6m0">
                                 <rect key="frame" x="72" y="307" width="89" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -945,6 +934,17 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="musicNote:" destination="Z4o-Wi-blK" eventType="touchUpInside" id="49e-gX-FuS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSw-gA-aAC">
+                                <rect key="frame" x="72" y="482" width="106" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="cute heart"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Q7x-3z-D2A" kind="show" id="HaX-Xw-Ynf"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1040,7 +1040,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yay-LF-jzC">
                                 <rect key="frame" x="40" y="621" width="334" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.63574361420000003" green="0.61037135279999999" blue="0.88436762700000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Wellness Together Canada">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
@@ -1053,7 +1053,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9IN-Ir-i9W">
                                 <rect key="frame" x="40" y="525" width="334" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.63574361420000003" green="0.61037135279999999" blue="0.88436762700000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Talk Suicide Canada">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
@@ -1072,7 +1072,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BA1-95-NbL"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.79607844350000001" green="0.73333334920000004" blue="0.8156862855" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="4sa-FQ-Epj"/>
                     <connections>
@@ -1120,7 +1120,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lGw-dF-msx">
                                 <rect key="frame" x="40" y="602" width="334" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.63574361420000003" green="0.61037135279999999" blue="0.88436762700000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Click here to chat online (Lifeline Chat)">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
@@ -1131,7 +1131,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="RcS-gV-UAg"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.79607844350000001" green="0.73333334920000004" blue="0.8156862855" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="Jk7-Wl-h29"/>
                     <connections>
@@ -1144,14 +1144,12 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="GLT-Er-B98"/>
         <segue reference="HaX-Xw-Ynf"/>
-        <segue reference="am4-1T-Btx"/>
-        <segue reference="Mfk-JX-Pwi"/>
+        <segue reference="bc9-H3-rla"/>
         <segue reference="xqv-jt-M01"/>
-        <segue reference="TRq-Li-U9P"/>
+        <segue reference="yq1-Gm-j7S"/>
         <segue reference="GZh-ZT-eSF"/>
-        <segue reference="qOa-F6-oV8"/>
+        <segue reference="qMR-eA-85w"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image" width="250" height="250"/>
@@ -1162,8 +1160,8 @@
         <image name="homekit" catalog="system" width="128" height="106"/>
         <image name="music note" width="160" height="160"/>
         <image name="sun emoji" width="120" height="120"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>
