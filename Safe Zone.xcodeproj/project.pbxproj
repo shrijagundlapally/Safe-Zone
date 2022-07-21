@@ -23,6 +23,7 @@
 		7B73EAF128889D790044097B /* anxietyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B73EAF028889D790044097B /* anxietyViewController.swift */; };
 		7B73EAF328889D8B0044097B /* panicAttacksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B73EAF228889D8B0044097B /* panicAttacksViewController.swift */; };
 		7D2EB7732888B3F900F2B198 /* ventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2EB7722888B3F900F2B198 /* ventViewController.swift */; };
+		7D3358032888ED8C001C4C6B /* homePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3358022888ED8C001C4C6B /* homePageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		7B73EAF028889D790044097B /* anxietyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anxietyViewController.swift; sourceTree = "<group>"; };
 		7B73EAF228889D8B0044097B /* panicAttacksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = panicAttacksViewController.swift; sourceTree = "<group>"; };
 		7D2EB7722888B3F900F2B198 /* ventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ventViewController.swift; sourceTree = "<group>"; };
+		7D3358022888ED8C001C4C6B /* homePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				7B73EAC728888D900044097B /* SceneDelegate.swift */,
 				7B73EAC928888D900044097B /* ViewController.swift */,
 				7B73EACB28888D900044097B /* Main.storyboard */,
+				7D3358022888ED8C001C4C6B /* homePageViewController.swift */,
 				7D2EB7722888B3F900F2B198 /* ventViewController.swift */,
 				7B73EAE428889D280044097B /* checkInViewController.swift */,
 				7B73EAE628889D360044097B /* informationViewController.swift */,
@@ -168,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D3358032888ED8C001C4C6B /* homePageViewController.swift in Sources */,
 				7B73EAD028888D900044097B /* Safe_Zone.xcdatamodeld in Sources */,
 				7B73EAE528889D280044097B /* checkInViewController.swift in Sources */,
 				7B73EACA28888D900044097B /* ViewController.swift in Sources */,
