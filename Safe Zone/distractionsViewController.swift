@@ -7,6 +7,7 @@
 
 import UIKit
 
+var distractions = ["drink water", "go outside", "exercise", "talk to a loved one", "shower", "clean your room", "colour/draw", "do a puzzle", "listen to music", "eat candy", "paint your nails", "count all the red objects in the room"]
 class distractionsViewController: UIViewController {
 
     override func viewDidLoad() {

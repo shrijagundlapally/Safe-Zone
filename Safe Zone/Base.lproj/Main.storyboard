@@ -36,7 +36,7 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="xUW-NG-HeG" kind="show" id="CMF-k5-x5o"/>
+                                    <segue destination="BVX-k0-Lda" kind="show" id="gOD-bh-WOc"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -47,7 +47,49 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-775.36231884057975" y="67.633928571428569"/>
+            <point key="canvasLocation" x="-1733" y="68"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="iff-e9-Aqw">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="BVX-k0-Lda" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="W1P-8C-xxl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Pw-Vg-jl6">
+                                <rect key="frame" x="62" y="141" width="291" height="444"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Safe Zone is not an app that cures mental illness and therefore should not be used in replacement of therapy or other professional treatments. The goal of this app is to aid, not cure, so please use at your discretion.</string>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Disclaimer" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FXT-47-bO0">
+                                <rect key="frame" x="33" y="75" width="349" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="45"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dd5-qt-T6N">
+                                <rect key="frame" x="43" y="703" width="329" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="I have read and understand the above message"/>
+                                <connections>
+                                    <segue destination="xUW-NG-HeG" kind="show" id="qMR-eA-85w"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dhS-Sg-F89"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="27p-GQ-u5L"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bi5-Nm-IWx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-836.23188405797111" y="73.660714285714278"/>
         </scene>
         <!--Home Page View Controller-->
         <scene sceneID="bN6-Rl-xcW">
@@ -637,29 +679,37 @@
                                     <segue destination="NAj-NH-QqS" kind="show" id="TRq-Li-U9P"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vOq-hp-4D7">
-                                <rect key="frame" x="120" y="252" width="174" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Sad Emoji "/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yhj-TH-c6O">
-                                <rect key="frame" x="163" y="433" width="67" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Button"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BFS-VC-RQd">
-                                <rect key="frame" x="174" y="622" width="67" height="31"/>
+                                <rect key="frame" x="72" y="622" width="272" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Tap here for an encouraging message!"/>
+                                <connections>
+                                    <action selector="affirmationButton:" destination="X4C-Ri-9mc" eventType="touchUpInside" id="qJJ-B8-sV6"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You can try reading them out loud, repeating them in your head - whatever works the best for you! " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zqC-0h-qPg">
+                                <rect key="frame" x="30" y="696" width="357" height="166"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tsj-TH-YI1">
+                                <rect key="frame" x="29" y="237" width="357" height="341"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="myk-ao-d3A"/>
                         <color key="backgroundColor" red="0.83529411764705885" green="0.92549019607843142" blue="0.92549019607843142" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="9Y6-Os-hLO"/>
+                    <connections>
+                        <outlet property="encouragingMessageLabel" destination="tsj-TH-YI1" id="pqR-jZ-wsw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wca-Hg-BUC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -731,7 +781,7 @@
                                 <rect key="frame" x="8" y="231" width="152" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Call 988"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Call or text 988"/>
                                 <connections>
                                     <action selector="firstButton:" destination="gM4-xi-B2b" eventType="touchUpInside" id="ngI-wx-Wzs"/>
                                 </connections>
@@ -764,11 +814,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nami" translatesAutoresizingMaskIntoConstraints="NO" id="hYf-ja-qOU">
-                                <rect key="frame" x="13" y="766" width="142" height="77"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="988 call" translatesAutoresizingMaskIntoConstraints="NO" id="Bz3-vy-JZz">
-                                <rect key="frame" x="168" y="268" width="142" height="77"/>
+                                <rect key="frame" x="3" y="702" width="142" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mia" translatesAutoresizingMaskIntoConstraints="NO" id="Muc-ru-x8B">
@@ -777,6 +823,10 @@
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TNI" translatesAutoresizingMaskIntoConstraints="NO" id="1QU-L6-zrz">
                                 <rect key="frame" x="228" y="594" width="186" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="988 call" translatesAutoresizingMaskIntoConstraints="NO" id="Bz3-vy-JZz">
+                                <rect key="frame" x="179" y="222" width="142" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -798,8 +848,8 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="qn1-94-j0v"/>
-        <segue reference="AUy-IF-CnK"/>
-        <segue reference="CMF-k5-x5o"/>
+        <segue reference="GZh-ZT-eSF"/>
+        <segue reference="qMR-eA-85w"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="988 call" width="2500" height="1308"/>
@@ -808,6 +858,9 @@
         <image name="homekit" catalog="system" width="128" height="106"/>
         <image name="mia" width="1200" height="600"/>
         <image name="nami" width="301" height="168"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
