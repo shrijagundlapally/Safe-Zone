@@ -12,13 +12,14 @@ class ventViewController: UIViewController {
     @IBOutlet weak var deleteButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        deleteButton.layer.cornerRadius = 12
-        deleteButton.layer.borderWidth = 2
-        deleteButton.layer.borderColor = UIColor(red: 0, green: 0, blue: 57/255, alpha: 1).cgColor
 
-        // Do any additional setup after loading the view.
     }
+    
+    @IBOutlet weak var journalText: UITextView!
     @IBAction func deleteButtonPressed(_ sender: UIButton) {
+        if journalText?.text != nil {
+            journalText.text = ""
+        }
     }
     
 
