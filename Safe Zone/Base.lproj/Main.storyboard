@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -780,98 +781,177 @@
                                     <segue destination="NAj-NH-QqS" kind="show" id="qn1-94-j0v"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFn-Bh-7vj">
-                                <rect key="frame" x="8" y="231" width="152" height="68"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpT-YD-6xh">
+                                <rect key="frame" x="141" y="542" width="132" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.63574361420000003" green="0.61037135279999999" blue="0.88436762700000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Call or text 988">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="canada"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="firstButton:" destination="gM4-xi-B2b" eventType="touchUpInside" id="ngI-wx-Wzs"/>
+                                    <segue destination="UOK-Sj-k82" kind="show" id="am4-1T-Btx"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JqT-L1-2fC">
-                                <rect key="frame" x="3" y="566" width="244" height="68"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7NW-kR-5aP">
+                                <rect key="frame" x="141" y="319" width="132" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.63574361420000003" green="0.61037135279999999" blue="0.88436762700000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="National Institute of Mental Health">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="america"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="thirdButton:" destination="gM4-xi-B2b" eventType="touchUpInside" id="6rF-oU-VR0"/>
+                                    <segue destination="Mgg-Rf-8Vc" kind="show" id="sj4-GZ-JW2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8el-KU-F4A">
-                                <rect key="frame" x="163" y="735" width="244" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.63574361420000003" green="0.61037135279999999" blue="0.88436762700000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="National Alliance on Mental Illness">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="fourthButton:" destination="gM4-xi-B2b" eventType="touchUpInside" id="1Np-AG-FC9"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NhJ-hg-Sse">
-                                <rect key="frame" x="201" y="390" width="206" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.63574361420000003" green="0.61037135279999999" blue="0.88436762700000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Mental Health America">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="secondButton:" destination="gM4-xi-B2b" eventType="touchUpInside" id="iap-ey-147"/>
-                                </connections>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nami" translatesAutoresizingMaskIntoConstraints="NO" id="hYf-ja-qOU">
-                                <rect key="frame" x="3" y="702" width="142" height="77"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mia" translatesAutoresizingMaskIntoConstraints="NO" id="Muc-ru-x8B">
-                                <rect key="frame" x="51" y="419" width="142" height="77"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TNI" translatesAutoresizingMaskIntoConstraints="NO" id="1QU-L6-zrz">
-                                <rect key="frame" x="228" y="594" width="186" height="77"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="988 call" translatesAutoresizingMaskIntoConstraints="NO" id="Bz3-vy-JZz">
-                                <rect key="frame" x="179" y="222" width="142" height="77"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="DRJ-PA-TmD"/>
                         <color key="backgroundColor" red="0.83529411764705885" green="0.92549019607843142" blue="0.92549019607843142" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="QOg-kl-FOx"/>
-                    <connections>
-                        <outlet property="firstPic" destination="Muc-ru-x8B" id="jLs-H6-WXj"/>
-                        <outlet property="fourthPic" destination="hYf-ja-qOU" id="VMx-ac-93t"/>
-                        <outlet property="secondPic" destination="Muc-ru-x8B" id="Peq-aE-g2b"/>
-                        <outlet property="thirdPic" destination="1QU-L6-zrz" id="5eZ-59-CHP"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Keu-sD-h0N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3244.9275362318845" y="-656.25"/>
         </scene>
+        <!--Canada Hotlines View Controller-->
+        <scene sceneID="1ah-Zw-IRY">
+            <objects>
+                <viewController id="UOK-Sj-k82" customClass="canadaHotlinesViewController" customModule="Safe_Zone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0AS-71-UpD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ylD-cn-Q8q">
+                                <rect key="frame" x="20" y="20" width="71" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="⬅️">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="42"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="gM4-xi-B2b" kind="show" id="Mfk-JX-Pwi"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="If you are in crisis and need immediate medical attention please call 911" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Of-UO-h7h">
+                                <rect key="frame" x="61" y="124" width="293" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yay-LF-jzC">
+                                <rect key="frame" x="40" y="709" width="334" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.63574361420000003" green="0.61037135279999999" blue="0.88436762700000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Wellness Together Canada">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="lifelineButton:" destination="Mgg-Rf-8Vc" eventType="touchUpInside" id="OVT-ut-Zi8"/>
+                                    <action selector="wellnessButton:" destination="UOK-Sj-k82" eventType="touchUpInside" id="6Oe-v2-8MA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9IN-Ir-i9W">
+                                <rect key="frame" x="40" y="601" width="334" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.63574361420000003" green="0.61037135279999999" blue="0.88436762700000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Talk Suicide Canada">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="lifelineButton:" destination="Mgg-Rf-8Vc" eventType="touchUpInside" id="jln-j3-J9q"/>
+                                    <action selector="talkSuicideButton:" destination="UOK-Sj-k82" eventType="touchUpInside" id="G6P-gx-yxa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="BA1-95-NbL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4sa-FQ-Epj"/>
+                    <connections>
+                        <outlet property="talkSuicideButton" destination="9IN-Ir-i9W" id="fqf-5P-PcD"/>
+                        <outlet property="wellnessButton" destination="Yay-LF-jzC" id="w9O-f4-ekh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Eg-XJ-coY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4009" y="-159"/>
+        </scene>
+        <!--Usa Hotlines View Controller-->
+        <scene sceneID="qbE-Px-Xxj">
+            <objects>
+                <viewController id="Mgg-Rf-8Vc" customClass="usaHotlinesViewController" customModule="Safe_Zone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lEJ-d8-HoH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vqB-h0-rfG">
+                                <rect key="frame" x="20" y="20" width="71" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="⬅️">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="42"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="gM4-xi-B2b" kind="show" id="bc9-H3-rla"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="If you are in crisis and need immediate medical attention please call 911" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AlC-zS-IFl">
+                                <rect key="frame" x="61" y="127" width="293" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Call or text 988 for the Suicide Crisis Hotline " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mAr-Nb-O62">
+                                <rect key="frame" x="61" y="301" width="303" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lGw-dF-msx">
+                                <rect key="frame" x="43" y="621" width="334" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.63574361420000003" green="0.61037135279999999" blue="0.88436762700000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Click here to chat online (Lifeline Chat)">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="lifelineButton:" destination="Mgg-Rf-8Vc" eventType="touchUpInside" id="A5x-Qk-cpD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RcS-gV-UAg"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Jk7-Wl-h29"/>
+                    <connections>
+                        <outlet property="lifelineButton" destination="lGw-dF-msx" id="ZxD-zM-EET"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Clk-PP-pko" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4002.898550724638" y="-963.61607142857133"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="am4-1T-Btx"/>
+        <segue reference="Mfk-JX-Pwi"/>
         <segue reference="qn1-94-j0v"/>
         <segue reference="wxT-XU-c91"/>
-        <segue reference="qMR-eA-85w"/>
+        <segue reference="qOa-F6-oV8"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="988 call" width="2500" height="1308"/>
         <image name="Image" width="250" height="250"/>
-        <image name="TNI" width="200" height="200"/>
+        <image name="america" width="80" height="80"/>
+        <image name="canada" width="80" height="80"/>
         <image name="homekit" catalog="system" width="128" height="106"/>
-        <image name="mia" width="1200" height="600"/>
-        <image name="nami" width="301" height="168"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
