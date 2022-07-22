@@ -815,7 +815,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="vz2-Di-fK7">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="vz2-Di-fK7">
                                 <rect key="frame" x="49" y="681" width="317" height="267"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -891,7 +891,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="aLm-Vc-lPK">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="aLm-Vc-lPK">
                                 <rect key="frame" x="49" y="682" width="317" height="267"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -964,7 +964,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="ZdB-Bf-kLb">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="ZdB-Bf-kLb">
                                 <rect key="frame" x="49" y="682" width="317" height="267"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1321,7 +1321,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="GoO-k2-ii6"/>
-        <segue reference="ait-Zh-rlf"/>
+        <segue reference="5MA-cY-x7w"/>
         <segue reference="BQl-Ki-LBY"/>
         <segue reference="Oli-ZG-oT1"/>
         <segue reference="qMR-eA-85w"/>
@@ -1331,7 +1331,6 @@
         <image name="Bubble icon" width="250" height="250"/>
         <image name="Flower icon 1" width="250" height="250"/>
         <image name="Glass icon" width="250" height="250"/>
-        <image name="Image" width="250" height="250"/>
         <image name="Logo" width="250" height="250"/>
         <image name="Lotus icon" width="250" height="250"/>
         <image name="Lotus icon 6" width="250" height="250"/>
